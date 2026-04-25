@@ -1,7 +1,8 @@
 
-n=int(input())
-fat = n
-for x in range(n,1,-1):
-    fat *= (x - 1)
 
-print(fat)
+n = int(input())
+
+for i in range(n-1,0, -1):
+    n*=i
+
+print(n)
